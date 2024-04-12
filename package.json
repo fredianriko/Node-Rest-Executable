@@ -1,0 +1,17 @@
+{
+  "name": "executable-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pkg index.js --target node14-win-x64 --output myapp",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pkg": "^5.8.1"
+  }
+}
